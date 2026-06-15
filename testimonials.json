@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Elena M.",
+    "location": "Manchester, United Kingdom",
+    "project": "Artevo — wall art ecommerce",
+    "quote": "The email designs perfectly captured our brand’s style and made our wall art feel irresistible. Every campaign looks beautiful and gets results. Highly recommended for anyone who wants their emails to stand out!",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Priya S.",
+    "location": "Birmingham, United Kingdom",
+    "project": "CraftKit — premium planner ecommerce",
+    "quote": "Our welcome and launch emails look so professional now. The layouts are clean, on-brand, and easy to update for every new product. We’ve seen a real boost in engagement since switching to these designs.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Jordan T.",
+    "location": "San Diego, United States",
+    "project": "Aquia — wellness ecommerce",
+    "quote": "The abandoned cart and welcome series you designed for us are both beautiful and effective. Our open and click rates improved right away. The process was smooth and collaborative from start to finish.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Sophie L.",
+    "location": "London, United Kingdom",
+    "project": "AVLine Pro — AV equipment ecommerce",
+    "quote": "We needed email templates that looked sharp and worked for technical buyers. The new designs are modern, easy to customize, and have helped us make a great first impression with new customers.",
+    "rating": 5
+  }
+]

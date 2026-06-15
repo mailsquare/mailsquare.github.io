@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "title": "Abandoned cart recovery \u2014 gentle product reminder",
+    "store": "Artevo \u2014 wall art ecommerce",
+    "description": "A subtle abandoned cart recovery email with product details, social proof, and a compelling nudge to complete checkout.",
+    "tags": "ecommerce, abandoned cart",
+    "image": "/images/Artevo/artevo_20cart-1-gentle-reminder.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 2,
+    "title": "Abandoned cart objection handling \u2014 build confidence",
+    "store": "Artevo \u2014 wall art ecommerce",
+    "description": "A reassurance-focused recovery email that addresses common buyer objections and highlights customer satisfaction.",
+    "tags": "ecommerce, abandoned cart",
+    "image": "/images/Artevo/artevo_cart-2-objection-handling.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 3,
+    "title": "Abandoned cart urgency \u2014 time-sensitive purchase reminder",
+    "store": "Artevo \u2014 wall art ecommerce",
+    "description": "A high-conversion cart recovery email with urgency messaging, low-stock cues, and a strong call to action.",
+    "tags": "ecommerce, abandoned cart",
+    "image": "/images/Artevo/artevo_cart-3-urgency-discount.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 4,
+    "title": "Welcome email \u2014 deliver an incentive and set expectations",
+    "store": "Artevo \u2014 wall art ecommerce",
+    "description": "A new subscriber welcome email that delivers a discount, introduces the brand, and sets clear next steps.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/Artevo/artevo_email-1-welcome-discount.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 5,
+    "title": "Welcome email \u2014 brand story and trust building",
+    "store": "Artevo \u2014 wall art ecommerce",
+    "description": "A story-led welcome template that shares brand values and creates emotional connection with new customers.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/Artevo/artevo_email-2-brand-story.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 6,
+    "title": "Welcome email \u2014 styling tips and product recommendations",
+    "store": "Artevo \u2014 wall art ecommerce",
+    "description": "A helpful onboarding email that offers styling ideas and product recommendations to boost engagement.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/Artevo/artevo_email-4-room-styling-guide.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 7,
+    "title": "Welcome email \u2014 community content and social engagement",
+    "store": "Artevo \u2014 wall art ecommerce",
+    "description": "A content-rich welcome email that highlights community stories and encourages customers to connect.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/Artevo/artevo_email-5-bundle-community.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 8,
+    "title": "Welcome email \u2014 incentive plus brand introduction",
+    "store": "Aquia \u2014 wellness ecommerce",
+    "description": "A conversion-focused welcome email that delivers a first-order discount and introduces the brand experience.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/Aquia/aquavita_email-1-welcome-discount.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 9,
+    "title": "Welcome email \u2014 brand story for wellness shoppers",
+    "store": "Aquia \u2014 wellness ecommerce",
+    "description": "A welcome template designed to share brand values and build trust with new wellness customers.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/Aquia/aquavita_email-2-story.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 10,
+    "title": "Welcome email \u2014 social proof and product trust",
+    "store": "Aquia \u2014 wellness ecommerce",
+    "description": "A welcome email that uses customer reviews and proof points to increase confidence and drive click through.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/Aquia/aquavita_email-3-social-proof.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 11,
+    "title": "Abandoned cart reminder \u2014 gentle checkout follow-up",
+    "store": "Aquia \u2014 wellness ecommerce",
+    "description": "A calming cart reminder focused on customer convenience, recovery incentives, and a clear purchase path.",
+    "tags": "ecommerce, abandoned cart",
+    "image": "/images/Aquia/aquavita_cart-email-1-reminder.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 12,
+    "title": "Abandoned cart urgency \u2014 low stock incentive",
+    "store": "Aquia \u2014 wellness ecommerce",
+    "description": "A cart recovery email that adds urgency with a limited-time offer and product reassurance.",
+    "tags": "ecommerce, abandoned cart",
+    "image": "/images/Aquia/aquavita_cart-email-3-urgency.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 13,
+    "title": "Abandoned cart objection handling \u2014 increase conversions",
+    "store": "Aquia \u2014 wellness ecommerce",
+    "description": "A recovery email that addresses lingering buyer concerns while keeping the layout clean and persuasive.",
+    "tags": "ecommerce, abandoned cart",
+    "image": "/images/Aquia/aquavita_cart-email-2-objections.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 14,
+    "title": "Welcome email \u2014 professional AV brand incentive",
+    "store": "AVLine Pro \u2014 AV equipment ecommerce",
+    "description": "A premium welcome email that delivers a first-order offer and introduces a professional AV brand.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/AVLine/AVLine_20Pro_email-1-welcome.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 15,
+    "title": "Welcome email \u2014 brand storytelling for technical buyers",
+    "store": "AVLine Pro \u2014 AV equipment ecommerce",
+    "description": "A story-driven onboarding email designed to build confidence among technical and professional shoppers.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/AVLine/AVLine_20Pro_email-2-story.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 16,
+    "title": "Welcome email \u2014 bestseller showcase and social proof",
+    "store": "AVLine Pro \u2014 AV equipment ecommerce",
+    "description": "A campaign email that highlights popular products and customer favorites to encourage first purchases.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/AVLine/AVLine_20Pro_email-3-bestsellers.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 17,
+    "title": "Abandoned cart reminder \u2014 AV equipment checkout follow-up",
+    "store": "AVLine Pro \u2014 AV equipment ecommerce",
+    "description": "A cart recovery email crafted for professional buyers, with clear product visuals and a concise call to action.",
+    "tags": "ecommerce, abandoned cart",
+    "image": "/images/AVLine/AVLine_20Pro_20cart-1-reminder.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 18,
+    "title": "Welcome email \u2014 premium product launch incentive",
+    "store": "CraftKit \u2014 premium planner ecommerce",
+    "description": "A high-impact welcome email that introduces new customers to premium planning tools and offers a launch incentive.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/CraftKit/craftkit_email-1-welcome-discount.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 19,
+    "title": "Welcome email \u2014 brand story for creative shoppers",
+    "store": "CraftKit \u2014 premium planner ecommerce",
+    "description": "A welcome email that shares the store story, design philosophy, and how customers can get more from the product line.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/CraftKit/craftkit_email-2-brand-story.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 20,
+    "title": "Welcome email \u2014 bestseller showcase and social proof",
+    "store": "CraftKit \u2014 premium planner ecommerce",
+    "description": "A welcome email with bestseller showcase and social proof",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/CraftKit/craftkit_email-3-bestsellers-social-proof.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 21,
+    "title": "Abandoned cart objection handling",
+    "store": "CraftKit \u2014 premium planner ecommerce",
+    "description": "A subtle abandoned cart recovery email with product details, social proof, and a compelling nudge to complete checkout.",
+    "tags": "ecommerce, abandoned cart",
+    "image": "/images/CraftKit/craftkit_cart-2-objections-testimonials.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 22,
+    "title": "Abandoned cart urgency \u2014 time-sensitive purchase reminder",
+    "store": "CraftKit \u2014 premium planner ecommerce",
+    "description": "Abandoned cart email with time-sensitive purchase reminder",
+    "tags": "ecommerce, abandoned cart",
+    "image": "/images/CraftKit/craftkit_cart-3-urgency-discount.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 23,
+    "title": "Welcome email \u2014 premium product launch incentive",
+    "store": "CinePro - professional home cinema online store",
+    "description": "A high-impact welcome email that introduces new customers to professional home cinema equipment and offers a launch incentive.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/CinePro/CineVault-welcome-01.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 24,
+    "title": "Welcome email \u2014 brand story for creative shoppers",
+    "store": "CinePro - professional home cinema online store",
+    "description": "A welcome email that shares the store story, design philosophy, and how customers can get more from the product line.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/CinePro/CineVault-welcome-02.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 25,
+    "title": "Welcome email \u2014 bestseller showcase and social proof",
+    "store": "CinePro - professional home cinema online store",
+    "description": "A welcome email with bestseller showcase and social proof",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/CinePro/CineVault-welcome-03.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 26,
+    "title": "Welcome email \u2014 premium product launch incentive",
+    "store": "Lumio - professional smart home equipment and tools online store",
+    "description": "A high-impact welcome email that introduces new customers to professional home cinema equipment and offers a launch incentive.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/Lumio/lumio-01-welcome.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 27,
+    "title": "Welcome email \u2014 brand story for creative shoppers",
+    "store": "Lumio - professional smart home equipment and tools online store",
+    "description": "A welcome email that shares the store story, design philosophy, and how customers can get more from the product line.",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/Lumio/lumio_email-02-brand-story.png",
+    "category": "ecommerce"
+  },
+  {
+    "id": 28,
+    "title": "Welcome email \u2014 bestseller showcase and social proof",
+    "store": "Lumio - professional smart home equipment and tools online store",
+    "description": "A welcome email with bestseller showcase and social proof",
+    "tags": "ecommerce, welcome series",
+    "image": "/images/Lumio/lumio_email-03-bestsellers.png",
+    "category": "ecommerce"
+  },
+  {
+    "title": "Cyreal Real Estate Campaign 1",
+    "store": "Cyreal",
+    "description": "Professional real estate email template for new property listings.",
+    "tags": "real estate, newsletter",
+    "image": "/images/RE/Cyreal/Cyreal%20mail%201.png",
+    "category": "realestate",
+    "id": 29
+  },
+  {
+    "title": "Cyreal Real Estate Campaign 2",
+    "store": "Cyreal",
+    "description": "Professional real estate email template for new property listings.",
+    "tags": "real estate, newsletter",
+    "image": "/images/RE/Cyreal/Cyreal%20mail%202.png",
+    "category": "realestate",
+    "id": 30
+  },
+  {
+    "title": "EuroFlat Real Estate Campaign 1",
+    "store": "EuroFlat",
+    "description": "Modern property update email for real estate agencies.",
+    "tags": "real estate, property update",
+    "image": "/images/RE/EuroFlat/Euroflat%20mail%201.png",
+    "category": "realestate",
+    "id": 31
+  },
+  {
+    "title": "EuroFlat Real Estate Campaign 2",
+    "store": "EuroFlat",
+    "description": "Modern property update email for real estate agencies.",
+    "tags": "real estate, property update",
+    "image": "/images/RE/EuroFlat/Euroflat%20Mail%202.png",
+    "category": "realestate",
+    "id": 32
+  },
+  {
+    "title": "Meridian Real Estate Campaign 1",
+    "store": "Meridian",
+    "description": "Elegant real estate newsletter for luxury listings.",
+    "tags": "real estate, luxury",
+    "image": "/images/RE/Meridian/Meridian%20Mail%201.png",
+    "category": "realestate",
+    "id": 33
+  },
+  {
+    "title": "Meridian Real Estate Campaign 2",
+    "store": "Meridian",
+    "description": "Elegant real estate newsletter for luxury listings.",
+    "tags": "real estate, luxury",
+    "image": "/images/RE/Meridian/Meridian%20Mail%202.png",
+    "category": "realestate",
+    "id": 34
+  }
+]

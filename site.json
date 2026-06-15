@@ -1,0 +1,55 @@
+{
+  "name": "MailSquare",
+  "logo": "./images/mailflow_logo.png",
+  "hero": {
+    "title": "Email Designer & Operations Specialist",
+    "description": "Designing high-quality emails and executing flawless setups across all major platforms (Klaviyo, Mailchimp, Brevo, Beehiiv, and more). From custom layouts for Ecom, B2B, and Newsletters to account setup, automated flows, segments, campaign deployment, and reporting.",
+    "chips": [
+      "Email Design",
+      "Email Developer",
+      "Klaviyo",
+      "HTML Email",
+      "Newsletters",
+      "Beehiiv",
+      "Mailchimp",
+      "Brevo",
+      "Ecommerce Email",
+      "Abandoned Cart",
+      "Welcome Series",
+      "Flows & Campaigns"
+    ],
+    "stats": []
+  },
+  "contact": {
+    "formspreeId": "xjglbdqq",
+    "title": "Ready to enhance your email marketing?",
+    "intro": "Use the form below to get in touch about your email design project."
+  },
+  "footer": {
+    "copy": "© 2026 MailSquare. All rights reserved.",
+    "social": {
+      "linkedin": "",
+      "github": "",
+      "dribbble": "",
+      "twitter": ""
+    }
+  },
+  "nav": [
+    {
+      "label": "Work",
+      "href": "#projects"
+    },
+    {
+      "label": "Clients",
+      "href": "#testimonials"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    },
+    {
+      "label": "Articles",
+      "href": "/articles"
+    }
+  ]
+}
