@@ -304,5 +304,41 @@
     "image": "/images/RE/Meridian/Meridian%20Mail%202.png",
     "category": "realestate",
     "id": 34
+  },
+  {
+    "title": "B2B SaaS Newsletter \u2014 Data insights and automation playbooks",
+    "store": "flow.pro",
+    "description": "A tech-focused newsletter template featuring actionable automation playbooks, dynamic tax calculators, and deep-dive data insights for SaaS professionals.",
+    "tags": "newsletter, saas, b2b",
+    "image": "/images/Newsletter/1flow%20email%201.png",
+    "category": "newsletter",
+    "id": 35
+  },
+  {
+    "title": "Data-Driven Newsletter \u2014 Market trends and visualizations",
+    "store": "chartr.",
+    "description": "A minimalist, analytical newsletter template designed to showcase macro data, financial charts, and market insights with high readability.",
+    "tags": "newsletter, data, charts",
+    "image": "/images/Newsletter/Chartr%20mail%203.png",
+    "category": "newsletter",
+    "id": 36
+  },
+  {
+    "title": "Personal Finance Newsletter \u2014 Market updates and actionable insights",
+    "store": "finimize",
+    "description": "A financial newsletter template featuring quick market briefs, clear TL;DR takeaways, and direct investment action items for everyday investors.",
+    "tags": "newsletter, finance, investing",
+    "image": "/images/Newsletter/Finimize%201.png",
+    "category": "newsletter",
+    "id": 37
+  },
+  {
+    "title": "Premium Financial Briefing \u2014 Private client market updates",
+    "store": "The Morning Brief",
+    "description": "An elegant, premium newsletter template tailored for private wealth clients, featuring sophisticated typography, market summaries, and a referral program.",
+    "tags": "newsletter, finance, premium",
+    "image": "/images/Newsletter/Morning%20Brief%20mail%202.png",
+    "category": "newsletter",
+    "id": 38
   }
 ]
