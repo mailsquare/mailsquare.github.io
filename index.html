@@ -698,8 +698,6 @@
     }
 
     .proj-list {
-      column-count: 3;
-      column-gap: 1.5rem;
       border-top: 1px solid var(--border);
       padding: 1rem 0 3rem
     }
@@ -784,17 +782,7 @@
       white-space: normal
     }
 
-    @media(max-width:1024px) {
-      .proj-list {
-        column-count: 2
-      }
-    }
 
-    @media(max-width:680px) {
-      .proj-list {
-        column-count: 1
-      }
-    }
 
     .test-sec {
       background: var(--bg-alt);
@@ -1663,18 +1651,42 @@
       }
 
       function renderProjectItems(projects) {
-        return projects.map(function (p) {
-          return (
-            '<div class="proj-item reveal-item">' +
-            '<div class="proj-img">' +
-            '<img src="' + E(p.image) + '" alt="' + E(p.title) + '" loading="lazy">' +
-            '<div class="proj-overlay"><span class="proj-overlay-text">' + E(p.description) + '</span></div>' +
-            '</div>' +
-            '<h3 class="proj-ttl">' + E(p.title) + '</h3>' +
-            '</div>'
-          );
-        }).join('');
+        var cols = window.innerWidth > 1024 ? 3 : (window.innerWidth > 680 ? 2 : 1);
+        var colArrays = [];
+        for (var i = 0; i < cols; i++) colArrays.push([]);
+        
+        projects.forEach(function(p, i) {
+          colArrays[i % cols].push(p);
+        });
+
+        return '<div class="proj-list-masonry" style="display:flex; gap:1.5rem; align-items:flex-start;">' + 
+          colArrays.map(function(col) {
+            return '<div class="proj-col" style="flex:1; display:flex; flex-direction:column; gap:0;">' + 
+              col.map(function(p) {
+                return (
+                  '<div class="proj-item reveal-item">' +
+                  '<div class="proj-img">' +
+                  '<img src="' + E(p.image) + '" alt="' + E(p.title) + '" loading="lazy">' +
+                  '<div class="proj-overlay"><span class="proj-overlay-text">' + E(p.description) + '</span></div>' +
+                  '</div>' +
+                  '<h3 class="proj-ttl">' + E(p.title) + '</h3>' +
+                  '</div>'
+                );
+              }).join('') + 
+            '</div>';
+          }).join('') + 
+        '</div>';
       }
+
+      var currentCols = window.innerWidth > 1024 ? 3 : (window.innerWidth > 680 ? 2 : 1);
+      window.addEventListener('resize', function() {
+        var newCols = window.innerWidth > 1024 ? 3 : (window.innerWidth > 680 ? 2 : 1);
+        if (newCols !== currentCols) {
+          currentCols = newCols;
+          var activeTab = document.querySelector('.proj-tab.active');
+          if (activeTab) activeTab.click();
+        }
+      });
 
       function renderHome(site, projects, testimonials, articles) {
         var hero = site.hero || {};
@@ -2071,6 +2083,18 @@
       });
 
       window.addEventListener('popstate', init);
+      window.addEventListener('hashchange', function() {
+        var hash = window.location.hash.replace('#', '');
+        var tabs = document.querySelectorAll('.proj-tab');
+        if (hash && tabs.length) {
+          var targetTab = Array.prototype.slice.call(tabs).filter(function(t) { return t.dataset.filter === hash; })[0];
+          if (targetTab) {
+            targetTab.click();
+            var projSec = document.getElementById('projects');
+            if (projSec) projSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
       document.addEventListener('DOMContentLoaded', init);
 
       if ('serviceWorker' in navigator) {
