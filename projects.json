@@ -340,5 +340,23 @@
     "image": "/images/Newsletter/Morning Brief mail 2.png",
     "category": "newsletter",
     "id": 38
+  },
+  {
+    "title": "Technical AI Deep Dive \\u2014 LLMs and Context Windows",
+    "store": "The Context Window",
+    "description": "A highly technical newsletter template tailored for AI researchers and engineers, featuring model benchmarking, RAG pipeline analysis, and clear code/terminal style formatting.",
+    "tags": "newsletter, tech, ai",
+    "image": "/images/Newsletter/Context Window mail 1.png",
+    "category": "newsletter",
+    "id": 39
+  },
+  {
+    "title": "Cybersecurity Intelligence \\u2014 Tactical threat assessments",
+    "store": "The Threat Vector",
+    "description": "A dense, tactical cybersecurity briefing template for CISOs and security engineers. Features clean data tables for CVEs, breach kill chains, and executive summaries.",
+    "tags": "newsletter, security, cyber",
+    "image": "/images/Newsletter/Threat Vector Email 1.png",
+    "category": "newsletter",
+    "id": 40
   }
 ]
