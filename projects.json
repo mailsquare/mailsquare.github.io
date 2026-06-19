@@ -252,7 +252,7 @@
     "category": "ecommerce"
   },
   {
-    "title": "Cyreal Real Estate Campaign 1",
+    "title": "Cyreal Real Estate Campaign",
     "store": "Cyreal",
     "description": "Professional real estate email template for new property listings.",
     "tags": "real estate, newsletter",
@@ -261,7 +261,7 @@
     "id": 29
   },
   {
-    "title": "Cyreal Real Estate Campaign 2",
+    "title": "Cyreal Real Estate Campaign",
     "store": "Cyreal",
     "description": "Professional real estate email template for new property listings.",
     "tags": "real estate, newsletter",
@@ -270,7 +270,7 @@
     "id": 30
   },
   {
-    "title": "EuroFlat Real Estate Campaign 1",
+    "title": "EuroFlat Real Estate Campaign",
     "store": "EuroFlat",
     "description": "Modern property update email for real estate agencies.",
     "tags": "real estate, property update",
@@ -288,7 +288,7 @@
     "id": 32
   },
   {
-    "title": "Meridian Real Estate Campaign 1",
+    "title": "Meridian Real Estate Campaign",
     "store": "Meridian",
     "description": "Elegant real estate newsletter for luxury listings.",
     "tags": "real estate, luxury",
@@ -310,7 +310,7 @@
     "store": "flow.pro",
     "description": "A tech-focused newsletter template featuring actionable automation playbooks, dynamic tax calculators, and deep-dive data insights for SaaS professionals.",
     "tags": "newsletter, saas, b2b",
-    "image": "/images/Newsletter/1flow%20email%201.png",
+    "image": "/images/Newsletter/1flow email 1.png",
     "category": "newsletter",
     "id": 35
   },
@@ -319,7 +319,7 @@
     "store": "chartr.",
     "description": "A minimalist, analytical newsletter template designed to showcase macro data, financial charts, and market insights with high readability.",
     "tags": "newsletter, data, charts",
-    "image": "/images/Newsletter/Chartr%20mail%203.png",
+    "image": "/images/Newsletter/Chartr mail 3.png",
     "category": "newsletter",
     "id": 36
   },
@@ -328,7 +328,7 @@
     "store": "finimize",
     "description": "A financial newsletter template featuring quick market briefs, clear TL;DR takeaways, and direct investment action items for everyday investors.",
     "tags": "newsletter, finance, investing",
-    "image": "/images/Newsletter/Finimize%201.png",
+    "image": "/images/Newsletter/Finimize 1.png",
     "category": "newsletter",
     "id": 37
   },
@@ -337,7 +337,7 @@
     "store": "The Morning Brief",
     "description": "An elegant, premium newsletter template tailored for private wealth clients, featuring sophisticated typography, market summaries, and a referral program.",
     "tags": "newsletter, finance, premium",
-    "image": "/images/Newsletter/Morning%20Brief%20mail%202.png",
+    "image": "/images/Newsletter/Morning Brief mail 2.png",
     "category": "newsletter",
     "id": 38
   }
