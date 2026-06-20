@@ -1412,6 +1412,68 @@
       color: var(--muted);
       font-size: .9rem
     }
+
+    .proj-item {
+      cursor: pointer;
+    }
+
+    .lightbox {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(15, 26, 15, 0.95);
+      z-index: 2000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s var(--ease);
+      padding: 2rem;
+    }
+
+    .lightbox.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .lightbox-img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      border-radius: 8px;
+      transform: scale(0.95);
+      transition: transform 0.3s var(--ease);
+      box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+    }
+
+    .lightbox.active .lightbox-img {
+      transform: scale(1);
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 1.5rem;
+      right: 2rem;
+      background: rgba(255,255,255,0.1);
+      border: none;
+      color: #fff;
+      font-size: 2rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .lightbox-close:hover {
+      background: rgba(255,255,255,0.2);
+    }
   </style>
 </head>
 
@@ -1444,6 +1506,11 @@
   </main>
 
   <footer class="footer" id="footer"></footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="Enlarged image">
+  </div>
 
   <script>
     (function () {
@@ -2114,6 +2181,38 @@
           }
         }
       });
+
+      var lightbox = document.getElementById('lightbox');
+      var lightboxImg = document.getElementById('lightbox-img');
+      var lightboxClose = document.getElementById('lightbox-close');
+
+      function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+
+      document.addEventListener('click', function (e) {
+        var projItem = e.target.closest('.proj-item');
+        if (projItem) {
+          var img = projItem.querySelector('img');
+          if (img && img.src) {
+            lightboxImg.src = img.src;
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+          }
+        }
+        
+        if (e.target === lightbox || e.target === lightboxClose) {
+          closeLightbox();
+        }
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+          closeLightbox();
+        }
+      });
+
       document.addEventListener('DOMContentLoaded', init);
 
       if ('serviceWorker' in navigator) {

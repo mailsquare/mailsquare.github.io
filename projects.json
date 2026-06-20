@@ -1,14 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Abandoned cart recovery — gentle product reminder",
-    "store": "Artevo  — wall art ecommerce",
-    "description": "A subtle abandoned cart recovery email with product details, social proof, and a compelling nudge to complete checkout.",
-    "tags": "ecommerce, abandoned cart",
-    "image": "/images/Artevo/artevo_20cart-1-gentle-reminder.png",
-    "category": "ecommerce"
-  },
-  {
     "id": 2,
     "title": "Abandoned cart objection handling — build confidence",
     "store": "Artevo — wall art ecommerce",
@@ -42,24 +33,6 @@
     "description": "A story-led welcome template that shares brand values and creates emotional connection with new customers.",
     "tags": "ecommerce, welcome series",
     "image": "/images/Artevo/artevo_email-2-brand-story.png",
-    "category": "ecommerce"
-  },
-  {
-    "id": 6,
-    "title": "Welcome email — styling tips and product recommendations",
-    "store": "Artevo — wall art ecommerce",
-    "description": "A helpful onboarding email that offers styling ideas and product recommendations to boost engagement.",
-    "tags": "ecommerce, welcome series",
-    "image": "/images/Artevo/artevo_email-4-room-styling-guide.png",
-    "category": "ecommerce"
-  },
-  {
-    "id": 7,
-    "title": "Welcome email — community content and social engagement",
-    "store": "Artevo — wall art ecommerce",
-    "description": "A content-rich welcome email that highlights community stories and encourages customers to connect.",
-    "tags": "ecommerce, welcome series",
-    "image": "/images/Artevo/artevo_email-5-bundle-community.png",
     "category": "ecommerce"
   },
   {
