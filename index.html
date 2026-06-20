@@ -345,13 +345,19 @@
     }
 
     .hero-title {
-      font-size: clamp(2.4rem, 5.5vw, 2.8rem);
+      font-size: clamp(2rem, 4.5vw, 2.8rem);
       font-weight: 800;
       letter-spacing: -.04em;
       line-height: 1.05;
-      max-width: 680px;
+      max-width: 900px;
       margin-bottom: 1.4rem;
-      animation: fadeUp .55s .08s var(--ease) both
+      animation: fadeUp .55s .08s var(--ease) both;
+    }
+
+    @media (min-width: 681px) {
+      .hero-title {
+        white-space: nowrap;
+      }
     }
 
     .hero-desc {
@@ -1890,7 +1896,7 @@
           // '</section>' +
           '<section id="hero" class="hero" style="text-align:center">' +
           '<div class="container">' +
-          '<div style="max-width:720px;margin:0 auto">' +
+          '<div style="max-width:900px;margin:0 auto">' +
           '<div class="hero-badge" style="margin:0 auto 1.75rem"><span class="hero-dot"></span>Available for new projects</div>' +
           '<h1 class="hero-title" style="margin-left:auto;margin-right:auto">' + E(hero.title) + '</h1>' +
           // '<p class="hero-desc" style="margin-left:auto;margin-right:auto">' + E(hero.description) + '</p>' +
